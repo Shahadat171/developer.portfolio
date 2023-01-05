@@ -78,15 +78,24 @@ main {
     text-align: center;
 }
 
+#pragraph {
+    width: ;
+}
+
 .about {
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    margin-bottom: 120px;
 }
 
 .section-title {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
     margin-bottom: 30px;
 }
 
@@ -96,7 +105,91 @@ main {
     font-size: 18px;
     color: #757575;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
+/* skill styles */
+.skill-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+
+.title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.resume-button{
+    margin-top: 50px;
+}
+/* Section styles */ 
+.section-title{
+    text-align: left;
+}
+.Contact-Section{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.section-description{
+    text-align: left;
+}
+.Contact-Section input, textarea{
+margin-bottom: 24px;
+}
+.contact-title{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.section-description{
+    margin-bottom: 30px;
+}
+.img{
+gap: 24px;
+margin-left: 0px;
+}
+
